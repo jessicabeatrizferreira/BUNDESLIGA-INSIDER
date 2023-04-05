@@ -5,13 +5,15 @@
 #232126 preto
 #D9A23D mostarda
 #F2F2F2 braco gelo
+
 */
+
 
 body{
     background-color: #f2f2f2
 }
 li{
-    font-family: 'Change One', serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     color:#232126;
 
@@ -20,7 +22,20 @@ p{
     color:#232126 ;
     font-size: 20px;
 }
+h2{
+    color:#232126 ;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+
+}
 img{
     height: 300px;
     width: 300px;
+}
+footer{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 10px;
+    color:#232126;
+    text-align: center;
+
 }
