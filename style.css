@@ -8,15 +8,15 @@
 */
 
 body{
-    background-color: #F2F2F2
-    font-family: 'Change One', serif;
-    font-size: 20px;
-    color: #F2293A;
-    text-align: justify;
+    background-color: #f2f2f2
 }
 li{
     font-family: 'Change One', serif;
     font-size: 18px;
-    color: #232126
+    color:#232126;
 
+}
+p{
+    color:#232126 ;
+    font-size: 20px;
 }
