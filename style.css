@@ -8,6 +8,37 @@
 #F2F2F2 braco gelo
 
 */
+header{
+    padding: 5px;
+    margin-top: 20px;
+
+}
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+}
+
+.menu {
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    float: left;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px 10px 10px;
+    display: block;
+    border: 0px solid #f00;
+    margin: 0px;
+    display: inline;
+}
+
 a:visited {
     color: #232126;
     background-color: transparent;
@@ -27,7 +58,9 @@ a:active {
 }
 
 body {
-    background-color: #f2f2f2
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 li {
@@ -101,12 +134,15 @@ dl {
     font-size: 18px;
     font-family: 'Libre Baskerville', serif;
 }
+
 table {
     border-spacing: 5px;
 }
+
 th {
     text-align: center;
 }
+
 tr {
     text-align: center;
 }
