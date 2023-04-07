@@ -8,11 +8,7 @@
 #F2F2F2 braco gelo
 
 */
-header {
-    padding: 1px;
-
-}
-hr{
+hr {
     color: #D9A23D;
 }
 
@@ -20,6 +16,7 @@ img#header {
     height: 300px;
     width: fit-content;
     border: none;
+    padding-top: 1px;
 
 }
 
@@ -28,6 +25,8 @@ img#header {
     display: -webkit-flex;
     justify-content: center;
     align-items: center;
+    padding: 2px;
+    margin: auto;
 }
 
 body {
@@ -36,14 +35,14 @@ body {
 }
 
 .menu {
-    list-style:circle;
+    list-style: circle;
     border: 1px solid #D9A23D;
     float: left;
     display: block;
     justify-content: center;
     align-items: center;
     padding: 2px;
-    width:auto;
+    width: auto;
 }
 
 .menu li {
@@ -86,11 +85,47 @@ body {
     margin-top: 20px;
 }
 
+form {
+    width: 408px;
+    padding: 1em;
+    border: 1px solid #D9A23D;
+    border-radius: 1em;
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+}
+
+input,
+textarea {
+    font: 1em 'Libre Baskerville', serif;
+    width: 400px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #D9A23D;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+.button {
+    padding-left: 90px;
+}
+button {
+    margin-left: .5em;
+}
+
 li {
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     color: #232126;
-
 }
 
 p#intro {
@@ -119,11 +154,11 @@ div.img {
 div.img:hover {
     border: 5px;
     padding: 10px;
-    transform: scale(1.3); 
+    transform: scale(1.3);
 }
 
 div.img img {
-    width:100%;
+    width: 100%;
     height: auto;
 }
 
@@ -198,5 +233,6 @@ footer {
     font-size: 12px;
     color: #232126;
     text-align: center;
+
 
 }
